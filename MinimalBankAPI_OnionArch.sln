@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{800FD2EF-F629-4056-A20B-352A0E224BAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{9BB2043F-4745-47A1-BC59-2EFFD914FC27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastracture", "Infrastracture", "{3CA0B720-F3E5-41D2-A9A2-429552C2C3D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prensentation", "Prensentation", "{E5937364-A231-4E64-BEB1-DAEF16B51F45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B275C082-9417-42B8-9762-33AC0AF6DFA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalBankAPI_OnionArch.Application", "Core\MinimalBankAPI_OnionArch.Application\MinimalBankAPI_OnionArch.Application.csproj", "{03A64B55-DE4E-4D26-A5BB-46CF9CCF7E3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalBankAPI_OnionArch.Domain", "Core\MinimalBankAPI_OnionArch.Domain\MinimalBankAPI_OnionArch.Domain.csproj", "{104AED6A-7BDC-4FA7-AF8C-EA5884E9F90A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalBankAPI_OnionArch.Infrastracture", "Infrastracture\MinimalBankAPI_OnionArch.Infrastracture\MinimalBankAPI_OnionArch.Infrastracture.csproj", "{CCADFCAC-3AA8-4CDB-9390-A2E481EB3A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalBankAPI_OnionArch.Persistance", "Infrastracture\MinimalBankAPI_OnionArch.Persistance\MinimalBankAPI_OnionArch.Persistance.csproj", "{D9591B76-8A7E-4940-967E-4DA3B0C0C106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalBankAPI_OnionArch.API", "Presentation\MinimalBankAPI_OnionArch.API\MinimalBankAPI_OnionArch.API.csproj", "{ED187D91-95AB-4A95-9A07-3A8D687720E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalBankAPI_OnionArch.Security", "Security\MinimalBankAPI_OnionArch.Security\MinimalBankAPI_OnionArch.Security.csproj", "{4D815592-7B3D-4BD0-8B78-ABFF85E661E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03A64B55-DE4E-4D26-A5BB-46CF9CCF7E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A64B55-DE4E-4D26-A5BB-46CF9CCF7E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A64B55-DE4E-4D26-A5BB-46CF9CCF7E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A64B55-DE4E-4D26-A5BB-46CF9CCF7E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104AED6A-7BDC-4FA7-AF8C-EA5884E9F90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104AED6A-7BDC-4FA7-AF8C-EA5884E9F90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104AED6A-7BDC-4FA7-AF8C-EA5884E9F90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104AED6A-7BDC-4FA7-AF8C-EA5884E9F90A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCADFCAC-3AA8-4CDB-9390-A2E481EB3A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCADFCAC-3AA8-4CDB-9390-A2E481EB3A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCADFCAC-3AA8-4CDB-9390-A2E481EB3A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCADFCAC-3AA8-4CDB-9390-A2E481EB3A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9591B76-8A7E-4940-967E-4DA3B0C0C106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9591B76-8A7E-4940-967E-4DA3B0C0C106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9591B76-8A7E-4940-967E-4DA3B0C0C106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9591B76-8A7E-4940-967E-4DA3B0C0C106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED187D91-95AB-4A95-9A07-3A8D687720E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED187D91-95AB-4A95-9A07-3A8D687720E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED187D91-95AB-4A95-9A07-3A8D687720E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED187D91-95AB-4A95-9A07-3A8D687720E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D815592-7B3D-4BD0-8B78-ABFF85E661E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D815592-7B3D-4BD0-8B78-ABFF85E661E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D815592-7B3D-4BD0-8B78-ABFF85E661E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D815592-7B3D-4BD0-8B78-ABFF85E661E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03A64B55-DE4E-4D26-A5BB-46CF9CCF7E3D} = {800FD2EF-F629-4056-A20B-352A0E224BAB}
+		{104AED6A-7BDC-4FA7-AF8C-EA5884E9F90A} = {800FD2EF-F629-4056-A20B-352A0E224BAB}
+		{CCADFCAC-3AA8-4CDB-9390-A2E481EB3A15} = {3CA0B720-F3E5-41D2-A9A2-429552C2C3D5}
+		{D9591B76-8A7E-4940-967E-4DA3B0C0C106} = {3CA0B720-F3E5-41D2-A9A2-429552C2C3D5}
+		{ED187D91-95AB-4A95-9A07-3A8D687720E7} = {E5937364-A231-4E64-BEB1-DAEF16B51F45}
+		{4D815592-7B3D-4BD0-8B78-ABFF85E661E2} = {9BB2043F-4745-47A1-BC59-2EFFD914FC27}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A506EC66-5532-4839-92DD-4A406BA82B0C}
+	EndGlobalSection
+EndGlobal
